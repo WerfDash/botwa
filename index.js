@@ -14,7 +14,7 @@ const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
 const BotName = 'WerfBOT☄'; 
-const instagram = 'https://instagram.com/Hyspike'; 
+const instagram = 'https://instagram.com/Hyspike.gt'; 
 const telegram = ''; 
 const kapanbotaktif = 'KETIKA HANYA DIAKTIFKAN'; 
 const youtube = '';
