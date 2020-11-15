@@ -225,6 +225,13 @@ axios.get(`https://st4rz.herokuapp.com/api/ig?url=${teks}`).then((res) => {
 })
 }
 
+if (text.includes("#tts")){
+const teks = text.replace(/#tts /, "")
+const gtts = (`https://rest.farzain.com/api/tts.php?id=${teks}&apikey=O8mUD3YrHIy9KM1fMRjamw8eg`)
+    conn.sendMessage(id, gtts ,MessageType.text);
+})
+}
+
 if (text.includes("!twt")){
 const teks = text.replace(/!twt /, "")
 axios.get(`https://mhankbarbar.herokuapp.com/api/twit?url=${teks}&apiKey=zFuV88pxcIiCWuYlwg57`).then((res) => {
@@ -232,6 +239,7 @@ axios.get(`https://mhankbarbar.herokuapp.com/api/twit?url=${teks}&apiKey=zFuV88p
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+
 if (text.includes("!tiktok")) {
 const tictoc = text.replace(/!tiktok /, "")
 axios.get(`https://st4rz.herokuapp.com/api/tiktok?url=${tictoc}`).then((res) => {
@@ -239,6 +247,7 @@ axios.get(`https://st4rz.herokuapp.com/api/tiktok?url=${tictoc}`).then((res) => 
 conn.sendMessage(id, titoe, MessageType.text);
 })
 }
+
 if (text.includes("!wikia")){
 const teks = text.replace(/!wikia /, "")
 axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${text}`).then((res) => {
@@ -246,6 +255,7 @@ axios.get(`https://st4rz.herokuapp.com/api/wiki?q=${text}`).then((res) => {
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
+
 if (text.includes("!sholat")){
   const teks = text.replace(/!sholat /, "")
   axios.get(`https://mhankbarbar.herokuapp.com/api/jadwalshalat?daerah=${teks}&apiKey=zFuV88pxcIiCWuYlwg57`).then ((res) =>{
@@ -253,6 +263,7 @@ if (text.includes("!sholat")){
   conn.sendMessage(id, hasil, MessageType.text);
 })
 }
+
 if (text == '!menu'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
 var date = new Date();
