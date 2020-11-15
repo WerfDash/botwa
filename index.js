@@ -99,71 +99,71 @@ conn.sendMessage(group.gid, "Halo semua!!!", MessageType.extendedText) // say he
 
 }
 //chat
-if (text == 'halo')
+if (text == '8537jq190')
 {
 conn.sendMessage(id, tambahan.halo ,MessageType.text);
 }
-else if (text == 'hai')
+else if (text == '07439bbifw7i')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
-else if (text == 'assalamualaikum')
+else if (text == 'ou76galou65dgigkiu')
 {
 conn.sendMessage(id, tambahan.ass ,MessageType.text);
 }
-else if (text == 'bro')
+else if (text == '9631uhgo')
 {
 conn.sendMessage(id, tambahan.bro ,MessageType.text);
 }
-else if (text == 'p')
+else if (text == '8z585sitdoy')
 {
 conn.sendMessage(id, tambahan.p ,MessageType.text);
 }
-else if (text == 'test')
+else if (text == 'johgij')
 {
   conn.sendMessage(id, tambahan.test, MessageType.text);
 }
-else if (text == 'HALO')
+else if (text == 'pjyexbh')
 {
 conn.sendMessage(id, tambahan.halo ,MessageType.text);
 }
-else if (text == 'Halo')
+else if (text == '075xsqqg')
 {
 conn.sendMessage(id, tambahan.halo ,MessageType.text);
 }
-else if (text == 'Hai')
+else if (text == 'ohds3')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
-else if (text == 'Assalamualaikum')
+else if (text == '7ojhfcz')
 {
 conn.sendMessage(id, tambahan.ass ,MessageType.text);
 }
-else if (text == 'Bro')
+else if (text == 'puhijn5o')
 {
 conn.sendMessage(id, tambahan.bro ,MessageType.text);
 }
-else if (text == 'P')
+else if (text == 'Pjiy66fd3')
 {
 conn.sendMessage(id, tambahan.p ,MessageType.text);
 }
-else if (text == 'Test')
+else if (text == '853etuj')
 {
   conn.sendMessage(id, tambahan.test, MessageType.text);
 }
-else if (text == 'HAI')
+else if (text == '10kbcehuI')
 {
 conn.sendMessage(id, tambahan.hai ,MessageType.text);
 }
-else if (text == 'ASSALAMUALAIKUM')
+else if (text == '8106eupbhM')
 {
 conn.sendMessage(id, tambahan.ass ,MessageType.text);
 }
-else if (text == 'BRO')
+else if (text == '953dknt')
 {
 conn.sendMessage(id, tambahan.bro ,MessageType.text);
 }
-else if (text == 'TEST')
+else if (text == '953gnbxc')
 {
   conn.sendMessage(id, tambahan.test, MessageType.text);
 }
